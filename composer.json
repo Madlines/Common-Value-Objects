@@ -1,0 +1,24 @@
+{
+    "name": "madlines/common-value-objects",
+    "type": "library",
+    "description": "Set of generic Value Objects",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksander Ciesiolkiewicz",
+            "email": "a.ciesiolkiewicz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Madlines\\Common\\ValueObjects\\": "src"
+        }
+    }
+}
